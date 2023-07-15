@@ -17,7 +17,7 @@ const QuestionList = ({ questions }) => {
 		);
   });
 
-	  // Return all questions to App for rendering
+  // Return all questions to App for rendering
   return (
 		<section className='question-list'>{quizComponents}</section>
 	);
