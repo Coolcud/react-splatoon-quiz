@@ -1,5 +1,5 @@
 import './App.css';
-import QuizContents from './components/QuizContents';
+import QuestionList from './components/QuestionList';
 import quizData from '../data/questions.json';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <main>
       <header className='page-header'>Splatoon Trivia!</header>
       <section className='page-quiz__body'>
-        <QuizContents></QuizContents>
+        <QuestionList></QuestionList>
       </section>
     </main>
   );
