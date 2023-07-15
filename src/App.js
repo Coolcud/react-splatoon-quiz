@@ -1,5 +1,6 @@
 import './App.css';
 import QuizContents from './components/QuizContents';
+import quizData from '../data/questions.json';
 
 function App() {
   return (
