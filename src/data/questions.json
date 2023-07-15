@@ -3,35 +3,21 @@
         "id": 1,
 		"image": "s3-deep-cut-logo.jpg",
 		"question": "Which of the following characters is NOT part of Deep Cut?",
-        "options": {
-            "a": "Big Man",
-            "b": "Judd",
-            "c": "Shiver",
-            "d": "Frye"
-        },
-        "correctAnswer": "b"
+        "options": ["Big Man", "Judd", "Shiver", "Frye"],
+        "answer": "b"
     },
     {
         "id": 2,
 		"image": "s3-splatfest-tricolor.jpg",
 		"question": "How many splatfests have there been in North America?",
-        "options": {
-            "a": "57",
-            "b": "51",
-            "c": "50",
-            "d": "55"
-        },
-        "correctAnswer": "d"
+        "options": ["57", "51", "50", "55"],
+        "answer": "d"
     },
     {
         "id": 3,
 		"image": "s2-ability-chunks.jpg",
 		"question": "In which game was the ability 'Ink Resistance Up' introduced?",
-        "options": {
-            "a": "Splatoon 1",
-            "b": "Splatoon 2",
-            "c": "Splatoon 3"
-        },
-        "correctAnswer": "a"
+        "options": ["Splatoon 1", "Splatoon 2", "Splatoon 3"],
+        "answer": "a"
     }
 ]
