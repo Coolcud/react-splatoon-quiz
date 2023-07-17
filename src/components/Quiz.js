@@ -56,10 +56,10 @@ const Quiz = () => {
     <section className='quiz-container'>
       {!showResult ? (
         <div>
-          <span className='active-question-num'>{addLeadingZero(activeQuestion + 1)}</span>
-          <span className='total-question'>/{addLeadingZero(questions.length)}</span>
-        </div>
-        <div>
+          <div>
+            <span className='active-question-num'>{addLeadingZero(activeQuestion + 1)}</span>
+            <span className='total-question'>/{addLeadingZero(questions.length)}</span>
+          </div>
           <h2>{question}</h2>
           <img alt='' src={`../images/${image}`}></img>
           <ul>
